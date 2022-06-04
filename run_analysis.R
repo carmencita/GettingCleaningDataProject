@@ -77,4 +77,4 @@ data3$subject=c(subjectTrain$V1,subjectTest$V1)
 
 final=data3 %>% group_by(subject,activityName) %>% summarise_all(mean)
 
-write.csv(final,"UCI_HAR_Dataset_data_tidy.csv",row.names = FALSE)
+write.table(final,"UCI_HAR_Dataset_data_tidy.txt",row.names = FALSE)
