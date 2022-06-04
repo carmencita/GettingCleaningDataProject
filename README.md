@@ -1,6 +1,6 @@
-#Repo: Getting and Cleaning Data Course Project
+Repo: Getting and Cleaning Data Course Project
 
-##Purpose 
+Purpose 
 The purpose of this project is to prepare a tidy dataset that can be used for later analysis. 
 
 
@@ -8,13 +8,15 @@ This README explains how the script works and the steps:
 
 
 ##Dataset
-The original dataset can be downloaded 
-$ wget https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+The original dataset can be downloaded here
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 
 The unzipt directory contains training and testing data of accelerometers from the Samsung Galaxy S smartphones. A full description is available at the site where the data was obtained from.
 
 ##Steps
 The script
+
 $ run_analysis.R
 
 executes the following steps
